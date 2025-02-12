@@ -152,7 +152,7 @@ Por padrão, tanto o sensor de temperatura quanto o de umidade estão publicando
 ---
 
 ## Rodando o Dashboard Gráfico
-### Rode execute novamente o docker compose:
+### Execute novamente o docker compose:
    ```bash
    docker compose up -d
    ```
