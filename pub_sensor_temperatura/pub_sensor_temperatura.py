@@ -4,8 +4,8 @@ import random
 
 BROKER_ADDRESS = "mosquitto"
 MQTT_PORT = 1883
-TOPIC = "home/sensors/temperatura"
-
+#TOPIC = "home/sensors/temperatura"
+TOPIC = "home/sensors"
 print("Iniciando pub_sensor_temperatura...")  # Cheque se existe esse print no começo
 
 client = mqtt.Client("pub_sensor_temperatura")
