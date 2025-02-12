@@ -152,6 +152,10 @@ Por padrão, tanto o sensor de temperatura quanto o de umidade estão publicando
 ---
 
 ## Rodando o Dashboard Gráfico
+### Rode execute novamente o docker compose:
+   ```bash
+   docker compose up -d
+   ```
 
 Além do dashboard em linha de comando, você pode executar um dashboard gráfico. Para isso, siga os passos abaixo:
 
