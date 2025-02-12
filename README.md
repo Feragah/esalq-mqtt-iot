@@ -175,7 +175,9 @@ Além do dashboard em linha de comando, você pode executar um dashboard gráfic
 3. **Instalar as dependências necessárias**:
 
    ```bash
-   pip install paho-mqtt PySide6
+   pip install "paho-mqtt<2.0"
+
+   pip install PySide6
    ```
 
 4. **Executar o dashboard gráfico**:
