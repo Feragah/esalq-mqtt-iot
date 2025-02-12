@@ -1,4 +1,4 @@
-# ProjetoIoT - Demonstração de MQTT com Mosquitto
+# MBA USP Esalq - IoT - Demonstração do protocolo MQTT com Mosquitto
 
 Este projeto faz parte da aula prática de demonstração do protocolo **MQTT** utilizando o middleware **Mosquitto**. O objetivo é ilustrar o funcionamento do padrão **publish/subscribe** por meio de dois sensores que publicam dados (temperatura e umidade) em um broker MQTT, enquanto um _dashboard_ permanece assinante (subscriber) do tópico e é notificado a cada nova mensagem recebida.
 
