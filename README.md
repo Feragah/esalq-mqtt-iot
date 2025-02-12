@@ -159,7 +159,7 @@ Por padrão, tanto o sensor de temperatura quanto o de umidade estão publicando
 
 Além do dashboard em linha de comando, você pode executar um dashboard gráfico. Para isso, siga os passos abaixo:
 
-1. **Garantir que o Python 3.9 e o pip estão instalados** em sua máquina local:
+1. **Garantir que o Python 3, ou versão superior, e o pip estão instalados** em sua máquina local:
 
    ```bash
    python3 --version
