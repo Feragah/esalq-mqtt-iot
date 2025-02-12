@@ -85,7 +85,7 @@ Para conferir se tudo está funcionando corretamente, você pode acompanhar os l
 1. **Dashboard (assinante)**:
 
    ```bash
-   docker logs sub_dashboar -f
+   docker logs sub_dashboard -f
    ```
 
    - Use `CTRL + C` para parar a visualização dos logs.
