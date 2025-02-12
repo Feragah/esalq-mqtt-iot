@@ -169,7 +169,7 @@ Além do dashboard em linha de comando, você pode executar um dashboard gráfic
 2. **Acessar a pasta do dashboard gráfico**:
 
    ```bash
-   cd esalq-mqtt-iot/dashboard_gui
+   cd dashboard_gui
    ```
 
 3. **Instalar as dependências necessárias**:
