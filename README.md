@@ -146,7 +146,8 @@ Por padrão, tanto o sensor de temperatura quanto o de umidade estão publicando
      TOPIC = "home/sensors/umidade"
      ```
 **OBS: Salve todos os arquivos modificados antes das próximas etapas**
-Com isso, cada sensor passa a publicar em um tópico próprio, facilitando a distinção das mensagens entre temperatura e umidade.
+
+   - Com isso, cada sensor passa a publicar em um tópico próprio, facilitando a distinção das mensagens entre temperatura e umidade.
 
 ---
 
