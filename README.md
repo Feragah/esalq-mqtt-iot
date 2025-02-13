@@ -85,7 +85,7 @@ Para conferir se tudo está funcionando corretamente, você pode acompanhar os l
 1. **Dashboard (assinante)**:
 
    ```bash
-   docker logs sub_dashboar -f
+   docker logs sub_dashboard -f
    ```
 
    - Use `CTRL + C` para parar a visualização dos logs.
@@ -145,16 +145,21 @@ Por padrão, tanto o sensor de temperatura quanto o de umidade estão publicando
      ```python
      TOPIC = "home/sensors/umidade"
      ```
+**OBS: Salve todos os arquivos modificados antes das próximas etapas**
 
-Com isso, cada sensor passa a publicar em um tópico próprio, facilitando a distinção das mensagens entre temperatura e umidade.
+   - Com isso, cada sensor passa a publicar em um tópico próprio, facilitando a distinção das mensagens entre temperatura e umidade.
 
 ---
 
 ## Rodando o Dashboard Gráfico
+### Execute novamente o docker compose:
+   ```bash
+   docker compose up -d
+   ```
 
 Além do dashboard em linha de comando, você pode executar um dashboard gráfico. Para isso, siga os passos abaixo:
 
-1. **Garantir que o Python 3.9 e o pip estão instalados** em sua máquina local:
+1. **Garantir que o Python 3, ou versão superior, e o pip estão instalados** em sua máquina local:
 
    ```bash
    python3 --version
@@ -164,13 +169,15 @@ Além do dashboard em linha de comando, você pode executar um dashboard gráfic
 2. **Acessar a pasta do dashboard gráfico**:
 
    ```bash
-   cd esalq-mqtt-iot/dashboard_gui
+   cd dashboard_gui
    ```
 
 3. **Instalar as dependências necessárias**:
 
    ```bash
-   pip install paho-mqtt PySide6
+   pip install "paho-mqtt<2.0"
+
+   pip install PySide6
    ```
 
 4. **Executar o dashboard gráfico**:
