@@ -1,0 +1,11 @@
+.dashboard {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.gauge-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}

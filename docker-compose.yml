@@ -6,8 +6,8 @@ services:
     container_name: mosquitto
     ports:
       - "1883:1883"
+      - "9001:9001"  # Porta WebSocket MQTT
     volumes:
-      # Mapeia o mosquitto.conf local para o diretório de config do contêiner
       - ./config/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
     restart: unless-stopped
 
@@ -32,3 +32,13 @@ services:
       - mosquitto
     restart: unless-stopped
 
+  dashboard:
+    build:
+      context: ./dashboard_web/dashboard-mqtt  # Caminho correto do projeto Angular
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - mosquitto
+    volumes:
+      - ./dashboard_web/dashboard-mqtt:/app  # Mapeia o projeto para dentro do container
