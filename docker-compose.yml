@@ -32,13 +32,15 @@ services:
       - mosquitto
     restart: unless-stopped
 
+  
   dashboard:
     build:
-      context: ./dashboard_web/dashboard-mqtt  # Caminho correto do projeto Angular
+      context: ./dashboard_web/dashboard-mqtt
       dockerfile: Dockerfile
     ports:
-      - "8080:80"
+      - "4200:4200"  # Agora rodamos na porta do Angular
     depends_on:
       - mosquitto
     volumes:
-      - ./dashboard_web/dashboard-mqtt:/app  # Mapeia o projeto para dentro do container
+      - ./dashboard_web/dashboard-mqtt:/app  # Sincroniza os arquivos para edição ao vivo
+
