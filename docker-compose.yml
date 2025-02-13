@@ -33,14 +33,3 @@ services:
     restart: unless-stopped
 
   
-  dashboard:
-    build:
-      context: ./dashboard_web/dashboard-mqtt
-      dockerfile: Dockerfile
-    ports:
-      - "4200:4200"  # Agora rodamos na porta do Angular
-    depends_on:
-      - mosquitto
-    volumes:
-      - ./dashboard_web/dashboard-mqtt:/app  # Sincroniza os arquivos para edição ao vivo
-
