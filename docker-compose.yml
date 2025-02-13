@@ -31,5 +31,12 @@ services:
     depends_on:
       - mosquitto
     restart: unless-stopped
-
+  dashboard_react:
+    build:
+      context: ./dashboard_web_react
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - mosquitto
   
