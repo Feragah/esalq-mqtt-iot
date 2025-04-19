@@ -13,6 +13,6 @@ client.connect(BROKER_ADDRESS, MQTT_PORT, 60)
 while True:
     valor_aleatorio = random.randint(60, 70)
     message = f"{valor_aleatorio}"
-    client.publish(TOPIC, message)
+    client.publish(TOPIC, message, qos=1, retain=True)
     print(f"Mensagem publicada: {message}")  # Cheque se esse print está presente
     time.sleep(5)

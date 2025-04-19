@@ -5,15 +5,22 @@ import random
 BROKER_ADDRESS = "mosquitto"
 MQTT_PORT = 1883
 TOPIC = "home/sensors/temperatura"
-#TOPIC = "home/sensors"
-print("Iniciando pub_sensor_temperatura...")  # Cheque se existe esse print no começo
 
-client = mqtt.Client("pub_sensor_temperatura")
-client.connect(BROKER_ADDRESS, MQTT_PORT, 60)
+def publish_loop():
+    client = mqtt.Client("pub_sensor_temperatura")
+    client.connect(BROKER_ADDRESS, MQTT_PORT, keepalive=60)
+    client.loop_start()
 
-while True:
-    valor_aleatorio = random.uniform(15, 40)
-    message = f"{valor_aleatorio:.2f}"
-    client.publish(TOPIC, message)
-    print(f"Mensagem publicada: {message}")  # Cheque se esse print está presente
-    time.sleep(5)
+    try:
+        while True:
+            value = round(random.uniform(25.0, 35.0), 2)
+            print(f"Mensagem publicada: {value}")
+            client.publish(TOPIC, str(value), qos=1)
+            time.sleep(5)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        client.loop_stop()
+        client.disconnect()
+
+publish_loop()
