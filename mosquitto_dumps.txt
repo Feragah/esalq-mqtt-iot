@@ -1,0 +1,3661 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000       172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=8) [home/sensors/umidade]
+
+Frame 1: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 1, Ack: 1, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000135       172.18.0.2            172.18.0.3            MQTT     100    Publish Message (id=14) [home/sensors/umidade]
+
+Frame 2: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 1, Ack: 1, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000197       172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=8)
+
+Frame 3: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 1, Ack: 29, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.000213       172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=29 Ack=5 Win=502 Len=0 TSval=977935412 TSecr=4085235998
+
+Frame 4: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 29, Ack: 5, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.000511       172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=14)
+
+Frame 5: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 1, Ack: 29, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.000518       172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=29 Ack=5 Win=509 Len=0 TSval=1275783055 TSecr=4162227880
+
+Frame 6: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 29, Ack: 5, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.169036       172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=8) [home/sensors/temperatura]
+
+Frame 7: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 1, Ack: 1, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.169244       172.18.0.2            172.18.0.3            MQTT     107    Publish Message (id=15) [home/sensors/temperatura]
+
+Frame 8: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 29, Ack: 5, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.169299       172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=8)
+
+Frame 9: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 1, Ack: 36, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.169329       172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=36 Ack=5 Win=502 Len=0 TSval=2820499992 TSecr=1873319811
+
+Frame 10: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 36, Ack: 5, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.169548       172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=15)
+
+Frame 11: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 5, Ack: 64, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.169556       172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=64 Ack=9 Win=509 Len=0 TSval=1275783224 TSecr=4162228049
+
+Frame 12: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 64, Ack: 9, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 5.004621       172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=9) [home/sensors/umidade]
+
+Frame 13: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 29, Ack: 5, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 5.004791       172.18.0.2            172.18.0.3            MQTT     100    Publish Message (id=16) [home/sensors/umidade]
+
+Frame 14: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 64, Ack: 9, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 5.004853       172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=9)
+
+Frame 15: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 5, Ack: 57, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 5.004873       172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=57 Ack=9 Win=502 Len=0 TSval=977940416 TSecr=4085241002
+
+Frame 16: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 57, Ack: 9, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 5.005137       172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=16)
+
+Frame 17: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 9, Ack: 92, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 5.005145       172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=92 Ack=13 Win=509 Len=0 TSval=1275788060 TSecr=4162232885
+
+Frame 18: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 92, Ack: 13, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 5.174671       172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=9) [home/sensors/temperatura]
+
+Frame 19: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 36, Ack: 5, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 5.174895       172.18.0.2            172.18.0.3            MQTT     107    Publish Message (id=17) [home/sensors/temperatura]
+
+Frame 20: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 92, Ack: 13, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 5.174968       172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=9)
+
+Frame 21: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 5, Ack: 71, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 5.175037       172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=71 Ack=9 Win=502 Len=0 TSval=2820504998 TSecr=1873324817
+
+Frame 22: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 71, Ack: 9, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 5.175318       172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=17)
+
+Frame 23: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 13, Ack: 127, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 5.175327       172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=127 Ack=17 Win=509 Len=0 TSval=1275788230 TSecr=4162233055
+
+Frame 24: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 127, Ack: 17, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 10.008826      172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=10) [home/sensors/umidade]
+
+Frame 25: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 57, Ack: 9, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 10.009282      172.18.0.2            172.18.0.3            MQTT     100    Publish Message (id=18) [home/sensors/umidade]
+
+Frame 26: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 127, Ack: 17, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 10.009546      172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=10)
+
+Frame 27: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 9, Ack: 85, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 10.009595      172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=85 Ack=13 Win=502 Len=0 TSval=977945423 TSecr=4085246009
+
+Frame 28: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 85, Ack: 13, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 10.009983      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=18)
+
+Frame 29: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 17, Ack: 155, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 10.009992      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=155 Ack=21 Win=509 Len=0 TSval=1275793066 TSecr=4162237891
+
+Frame 30: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 155, Ack: 21, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 10.178733      172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=10) [home/sensors/temperatura]
+
+Frame 31: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 71, Ack: 9, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 10.179043      172.18.0.2            172.18.0.3            MQTT     107    Publish Message (id=19) [home/sensors/temperatura]
+
+Frame 32: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 155, Ack: 21, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 10.179166      172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=10)
+
+Frame 33: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 9, Ack: 106, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 10.179184      172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=106 Ack=13 Win=502 Len=0 TSval=2820510004 TSecr=1873329823
+
+Frame 34: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 106, Ack: 13, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 10.179508      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=19)
+
+Frame 35: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 21, Ack: 190, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 10.179516      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=190 Ack=25 Win=509 Len=0 TSval=1275793236 TSecr=4162238061
+
+Frame 36: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 190, Ack: 25, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 15.014232      172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=11) [home/sensors/umidade]
+
+Frame 37: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 85, Ack: 13, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 15.014372      172.18.0.2            172.18.0.3            MQTT     100    Publish Message (id=20) [home/sensors/umidade]
+
+Frame 38: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 190, Ack: 25, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 15.014439      172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=11)
+
+Frame 39: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 13, Ack: 113, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 15.014456      172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=113 Ack=17 Win=502 Len=0 TSval=977950428 TSecr=4085251014
+
+Frame 40: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 113, Ack: 17, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 15.014784      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=20)
+
+Frame 41: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 25, Ack: 218, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 15.014793      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=218 Ack=29 Win=509 Len=0 TSval=1275798071 TSecr=4162242896
+
+Frame 42: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 218, Ack: 29, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 15.184096      172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=11) [home/sensors/temperatura]
+
+Frame 43: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 106, Ack: 13, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 15.184284      172.18.0.2            172.18.0.3            MQTT     107    Publish Message (id=21) [home/sensors/temperatura]
+
+Frame 44: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 218, Ack: 29, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 15.184333      172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=11)
+
+Frame 45: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 13, Ack: 141, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 15.184367      172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=141 Ack=17 Win=502 Len=0 TSval=2820515009 TSecr=1873334828
+
+Frame 46: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 141, Ack: 17, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 15.184667      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=21)
+
+Frame 47: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 29, Ack: 253, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 15.184681      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=253 Ack=33 Win=509 Len=0 TSval=1275798241 TSecr=4162243066
+
+Frame 48: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 253, Ack: 33, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 20.019843      172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=12) [home/sensors/umidade]
+
+Frame 49: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 113, Ack: 17, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 20.020000      172.18.0.2            172.18.0.3            MQTT     100    Publish Message (id=22) [home/sensors/umidade]
+
+Frame 50: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 253, Ack: 33, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 20.020061      172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=12)
+
+Frame 51: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 17, Ack: 141, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 20.020079      172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=141 Ack=21 Win=502 Len=0 TSval=977955433 TSecr=4085256019
+
+Frame 52: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 141, Ack: 21, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 20.020337      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=22)
+
+Frame 53: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 33, Ack: 281, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 20.020346      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=281 Ack=37 Win=509 Len=0 TSval=1275803077 TSecr=4162247902
+
+Frame 54: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 281, Ack: 37, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 20.190358      172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=12) [home/sensors/temperatura]
+
+Frame 55: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 141, Ack: 17, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 20.190660      172.18.0.2            172.18.0.3            MQTT     107    Publish Message (id=23) [home/sensors/temperatura]
+
+Frame 56: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 281, Ack: 37, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 20.190726      172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=12)
+
+Frame 57: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 17, Ack: 176, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 20.190758      172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=176 Ack=21 Win=502 Len=0 TSval=2820520015 TSecr=1873339834
+
+Frame 58: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 176, Ack: 21, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 20.191237      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=23)
+
+Frame 59: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 37, Ack: 316, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 20.191275      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=316 Ack=41 Win=509 Len=0 TSval=1275803248 TSecr=4162248073
+
+Frame 60: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 316, Ack: 41, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 25.025315      172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=13) [home/sensors/umidade]
+
+Frame 61: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 141, Ack: 21, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 25.025499      172.18.0.2            172.18.0.3            MQTT     100    Publish Message (id=24) [home/sensors/umidade]
+
+Frame 62: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 316, Ack: 41, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 25.025622      172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=13)
+
+Frame 63: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 21, Ack: 169, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 25.025647      172.18.0.4            172.18.0.2            MQTT     74     Ping Request
+
+Frame 64: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 169, Ack: 25, Len: 2
+MQ Telemetry Transport Protocol, Ping Request
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 25.025726      172.18.0.2            172.18.0.4            MQTT     74     Ping Response
+
+Frame 65: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 25, Ack: 171, Len: 2
+MQ Telemetry Transport Protocol, Ping Response
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 25.025866      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=24)
+
+Frame 66: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 41, Ack: 344, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 25.025872      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=344 Ack=45 Win=509 Len=0 TSval=1275808082 TSecr=4162252907
+
+Frame 67: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 344, Ack: 45, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 25.072278      172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=171 Ack=27 Win=502 Len=0 TSval=977960486 TSecr=4085261025
+
+Frame 68: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 171, Ack: 27, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 25.195606      172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=13) [home/sensors/temperatura]
+
+Frame 69: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 176, Ack: 21, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 25.195744      172.18.0.2            172.18.0.3            MQTT     107    Publish Message (id=25) [home/sensors/temperatura]
+
+Frame 70: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 344, Ack: 45, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 25.195799      172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=13)
+
+Frame 71: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 21, Ack: 211, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 25.195828      172.18.0.6            172.18.0.2            MQTT     74     Ping Request
+
+Frame 72: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 211, Ack: 25, Len: 2
+MQ Telemetry Transport Protocol, Ping Request
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 25.195878      172.18.0.2            172.18.0.6            MQTT     74     Ping Response
+
+Frame 73: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 25, Ack: 213, Len: 2
+MQ Telemetry Transport Protocol, Ping Response
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 25.196067      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=25)
+
+Frame 74: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 45, Ack: 379, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 25.196075      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=379 Ack=49 Win=509 Len=0 TSval=1275808252 TSecr=4162253077
+
+Frame 75: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 379, Ack: 49, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 25.242225      172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=213 Ack=27 Win=502 Len=0 TSval=2820525067 TSecr=1873344839
+
+Frame 76: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 213, Ack: 27, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 26.197425      172.18.0.3            172.18.0.2            MQTT     74     Ping Request
+
+Frame 77: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 49, Ack: 379, Len: 2
+MQ Telemetry Transport Protocol, Ping Request
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 26.197462      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=379 Ack=51 Win=509 Len=0 TSval=1275809254 TSecr=4162254079
+
+Frame 78: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 379, Ack: 51, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 26.197598      172.18.0.2            172.18.0.3            MQTT     74     Ping Response
+
+Frame 79: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 379, Ack: 51, Len: 2
+MQ Telemetry Transport Protocol, Ping Response
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 26.242249      172.18.0.3            172.18.0.2            TCP      72     50591 → 1883 [ACK] Seq=51 Ack=381 Win=502 Len=0 TSval=4162254124 TSecr=1275809254
+
+Frame 80: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 51, Ack: 381, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 30.031314      172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=14) [home/sensors/umidade]
+
+Frame 81: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 171, Ack: 27, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 30.031515      172.18.0.2            172.18.0.3            MQTT     100    Publish Message (id=26) [home/sensors/umidade]
+
+Frame 82: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 381, Ack: 51, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 30.031564      172.18.0.3            172.18.0.2            TCP      72     50591 → 1883 [ACK] Seq=51 Ack=409 Win=502 Len=0 TSval=4162257913 TSecr=1275813088
+
+Frame 83: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 51, Ack: 409, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 30.031631      172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=14)
+
+Frame 84: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 27, Ack: 199, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 30.031647      172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=199 Ack=31 Win=502 Len=0 TSval=977965445 TSecr=4085266031
+
+Frame 85: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 199, Ack: 31, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 30.031886      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=26)
+
+Frame 86: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 51, Ack: 409, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 30.072256      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=409 Ack=55 Win=509 Len=0 TSval=1275813129 TSecr=4162257913
+
+Frame 87: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 409, Ack: 55, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 30.201325      172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=14) [home/sensors/temperatura]
+
+Frame 88: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 213, Ack: 27, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 30.201613      172.18.0.2            172.18.0.3            MQTT     107    Publish Message (id=27) [home/sensors/temperatura]
+
+Frame 89: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0800
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 409, Ack: 55, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 30.201780      172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=14)
+
+Frame 90: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 27, Ack: 248, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 30.201846      172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=248 Ack=31 Win=502 Len=0 TSval=2820530026 TSecr=1873349845
+
+Frame 91: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 248, Ack: 31, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 30.202238      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=27)
+
+Frame 92: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 55, Ack: 444, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 30.202272      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=444 Ack=59 Win=509 Len=0 TSval=1275813259 TSecr=4162258084
+
+Frame 93: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 444, Ack: 59, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 35.032910      172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=15) [home/sensors/umidade]
+
+Frame 94: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 199, Ack: 31, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 35.033137      172.18.0.2            172.18.0.3            MQTT     100    Publish Message (id=28) [home/sensors/umidade]
+
+Frame 95: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0406
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 444, Ack: 59, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 35.033181      172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=15)
+
+Frame 96: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0800
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 31, Ack: 227, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 35.033219      172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=227 Ack=35 Win=502 Len=0 TSval=977970447 TSecr=4085271033
+
+Frame 97: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0800
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 227, Ack: 35, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 35.033469      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=28)
+
+Frame 98: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0800
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 59, Ack: 472, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 35.033477      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=472 Ack=63 Win=509 Len=0 TSval=1275818090 TSecr=4162262915
+
+Frame 99: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0800
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 472, Ack: 63, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 35.206764      172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=15) [home/sensors/temperatura]
+
+Frame 100: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 248, Ack: 31, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    101 35.206879      172.18.0.2            172.18.0.3            MQTT     107    Publish Message (id=29) [home/sensors/temperatura]
+
+Frame 101: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 472, Ack: 63, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    102 35.206920      172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=15)
+
+Frame 102: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 31, Ack: 283, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 35.206953      172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=283 Ack=35 Win=502 Len=0 TSval=2820535031 TSecr=1873354850
+
+Frame 103: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 283, Ack: 35, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    104 35.207224      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=29)
+
+Frame 104: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 63, Ack: 507, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    105 35.207231      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=507 Ack=67 Win=509 Len=0 TSval=1275818264 TSecr=4162263089
+
+Frame 105: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 507, Ack: 67, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 40.038888      172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=16) [home/sensors/umidade]
+
+Frame 106: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 227, Ack: 35, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    107 40.039088      172.18.0.2            172.18.0.3            MQTT     100    Publish Message (id=30) [home/sensors/umidade]
+
+Frame 107: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 507, Ack: 67, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 40.039162      172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=16)
+
+Frame 108: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 35, Ack: 255, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    109 40.039187      172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=255 Ack=39 Win=502 Len=0 TSval=977975454 TSecr=4085276040
+
+Frame 109: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 255, Ack: 39, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    110 40.039626      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=30)
+
+Frame 110: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 67, Ack: 535, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    111 40.039640      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=535 Ack=71 Win=509 Len=0 TSval=1275823097 TSecr=4162267922
+
+Frame 111: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 535, Ack: 71, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 40.211628      172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=16) [home/sensors/temperatura]
+
+Frame 112: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 283, Ack: 35, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 40.211972      172.18.0.2            172.18.0.3            MQTT     107    Publish Message (id=31) [home/sensors/temperatura]
+
+Frame 113: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 535, Ack: 71, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 40.212013      172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=16)
+
+Frame 114: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 35, Ack: 318, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    115 40.212042      172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=318 Ack=39 Win=502 Len=0 TSval=2820540037 TSecr=1873359856
+
+Frame 115: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 318, Ack: 39, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 40.212278      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=31)
+
+Frame 116: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 71, Ack: 570, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    117 40.212285      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=570 Ack=75 Win=509 Len=0 TSval=1275823270 TSecr=4162268095
+
+Frame 117: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 570, Ack: 75, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    118 45.044314      172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=17) [home/sensors/umidade]
+
+Frame 118: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 255, Ack: 39, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    119 45.044483      172.18.0.2            172.18.0.3            MQTT     100    Publish Message (id=32) [home/sensors/umidade]
+
+Frame 119: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 570, Ack: 75, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    120 45.044525      172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=17)
+
+Frame 120: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 39, Ack: 283, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    121 45.044558      172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=283 Ack=43 Win=502 Len=0 TSval=977980459 TSecr=4085281045
+
+Frame 121: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 283, Ack: 43, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    122 45.044840      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=32)
+
+Frame 122: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 75, Ack: 598, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    123 45.044847      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=598 Ack=79 Win=509 Len=0 TSval=1275828102 TSecr=4162272927
+
+Frame 123: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 598, Ack: 79, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    124 45.217896      172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=17) [home/sensors/temperatura]
+
+Frame 124: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 318, Ack: 39, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    125 45.218287      172.18.0.2            172.18.0.3            MQTT     107    Publish Message (id=33) [home/sensors/temperatura]
+
+Frame 125: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 598, Ack: 79, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    126 45.218429      172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=17)
+
+Frame 126: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 39, Ack: 353, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    127 45.218501      172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=353 Ack=43 Win=502 Len=0 TSval=2820545044 TSecr=1873364863
+
+Frame 127: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 353, Ack: 43, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    128 45.219000      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=33)
+
+Frame 128: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 79, Ack: 633, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    129 45.219025      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=633 Ack=83 Win=509 Len=0 TSval=1275828276 TSecr=4162273101
+
+Frame 129: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 633, Ack: 83, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    130 50.049929      172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=18) [home/sensors/umidade]
+
+Frame 130: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 283, Ack: 43, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    131 50.050125      172.18.0.2            172.18.0.3            MQTT     100    Publish Message (id=34) [home/sensors/umidade]
+
+Frame 131: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 633, Ack: 83, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    132 50.050198      172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=18)
+
+Frame 132: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 43, Ack: 311, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    133 50.050247      172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=311 Ack=47 Win=502 Len=0 TSval=977985465 TSecr=4085286051
+
+Frame 133: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 311, Ack: 47, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    134 50.050544      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=34)
+
+Frame 134: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 83, Ack: 661, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    135 50.050553      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=661 Ack=87 Win=509 Len=0 TSval=1275833108 TSecr=4162277933
+
+Frame 135: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 661, Ack: 87, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    136 50.223072      172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=18) [home/sensors/temperatura]
+
+Frame 136: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 353, Ack: 43, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    137 50.223229      172.18.0.2            172.18.0.3            MQTT     107    Publish Message (id=35) [home/sensors/temperatura]
+
+Frame 137: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 661, Ack: 87, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    138 50.223269      172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=18)
+
+Frame 138: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 43, Ack: 388, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    139 50.223299      172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=388 Ack=47 Win=502 Len=0 TSval=2820550049 TSecr=1873369868
+
+Frame 139: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 388, Ack: 47, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    140 50.223747      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=35)
+
+Frame 140: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 87, Ack: 696, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    141 50.223760      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=696 Ack=91 Win=509 Len=0 TSval=1275833281 TSecr=4162278106
+
+Frame 141: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 696, Ack: 91, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    142 55.051730      172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=19) [home/sensors/umidade]
+
+Frame 142: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 311, Ack: 47, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    143 55.051886      172.18.0.2            172.18.0.3            MQTT     100    Publish Message (id=36) [home/sensors/umidade]
+
+Frame 143: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 696, Ack: 91, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    144 55.051951      172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=19)
+
+Frame 144: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 47, Ack: 339, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    145 55.051987      172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=339 Ack=51 Win=502 Len=0 TSval=977990466 TSecr=4085291052
+
+Frame 145: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 339, Ack: 51, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    146 55.052234      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=36)
+
+Frame 146: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 91, Ack: 724, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    147 55.052241      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=724 Ack=95 Win=509 Len=0 TSval=1275838110 TSecr=4162282935
+
+Frame 147: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 724, Ack: 95, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    148 55.229052      172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=19) [home/sensors/temperatura]
+
+Frame 148: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 388, Ack: 47, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    149 55.229212      172.18.0.2            172.18.0.3            MQTT     107    Publish Message (id=37) [home/sensors/temperatura]
+
+Frame 149: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 724, Ack: 95, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    150 55.229264      172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=19)
+
+Frame 150: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 11cf
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 47, Ack: 423, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    151 55.229297      172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=423 Ack=51 Win=502 Len=0 TSval=2820555055 TSecr=1873374874
+
+Frame 151: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 46c7
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 423, Ack: 51, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    152 55.229566      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=37)
+
+Frame 152: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 95, Ack: 759, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    153 55.229575      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [ACK] Seq=759 Ack=99 Win=509 Len=0 TSval=1275838287 TSecr=4162283112
+
+Frame 153: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 759, Ack: 99, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    154 59.269765      172.18.0.3            172.18.0.2            TCP      72     50591 → 1883 [FIN, ACK] Seq=99 Ack=759 Win=502 Len=0 TSval=4162287152 TSecr=1275838287
+
+Frame 154: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 99, Ack: 759, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    155 59.269888      172.18.0.2            172.18.0.3            TCP      72     1883 → 50591 [FIN, ACK] Seq=759 Ack=100 Win=509 Len=0 TSval=1275842327 TSecr=4162287152
+
+Frame 155: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 50591, Seq: 759, Ack: 100, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    156 59.269922      172.18.0.3            172.18.0.2            TCP      72     50591 → 1883 [ACK] Seq=100 Ack=760 Win=502 Len=0 TSval=4162287152 TSecr=1275842327
+
+Frame 156: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: be:57:97:2c:40:79 (be:57:97:2c:40:79)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 50591, Dst Port: 1883, Seq: 100, Ack: 760, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    157 60.057608      172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=20) [home/sensors/umidade]
+
+Frame 157: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 339, Ack: 51, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    158 60.057912      172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=20)
+
+Frame 158: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 51, Ack: 367, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    159 60.058010      172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=367 Ack=55 Win=502 Len=0 TSval=977995472 TSecr=4085296058
+
+Frame 159: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 367, Ack: 55, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    160 60.234692      172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=20) [home/sensors/temperatura]
+
+Frame 160: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 423, Ack: 51, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    161 60.234818      172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=20)
+
+Frame 161: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 51, Ack: 458, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    162 60.234848      172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=458 Ack=55 Win=502 Len=0 TSval=2820560060 TSecr=1873379879
+
+Frame 162: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0800
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 458, Ack: 55, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    163 65.063095      172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=21) [home/sensors/umidade]
+
+Frame 163: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 367, Ack: 55, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    164 65.063289      172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=21)
+
+Frame 164: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0002
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 55, Ack: 395, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    165 65.063342      172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=395 Ack=59 Win=502 Len=0 TSval=978000478 TSecr=4085301064
+
+Frame 165: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0406
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 395, Ack: 59, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    166 65.240479      172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=21) [home/sensors/temperatura]
+
+Frame 166: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 6800
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 458, Ack: 55, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    167 65.240684      172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=21)
+
+Frame 167: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0006
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 55, Ack: 493, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    168 65.240754      172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=493 Ack=59 Win=502 Len=0 TSval=2820565066 TSecr=1873384885
+
+Frame 168: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0006
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 493, Ack: 59, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    169 70.067258      172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=22) [home/sensors/umidade]
+
+Frame 169: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 395, Ack: 59, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    170 70.067487      172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=22)
+
+Frame 170: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0406
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 59, Ack: 423, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    171 70.067532      172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=423 Ack=63 Win=502 Len=0 TSval=978005483 TSecr=4085306069
+
+Frame 171: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 423, Ack: 63, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    172 70.244534      172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=22) [home/sensors/temperatura]
+
+Frame 172: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 493, Ack: 59, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    173 70.244665      172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=22)
+
+Frame 173: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0006
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 59, Ack: 528, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    174 70.244694      172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=528 Ack=63 Win=502 Len=0 TSval=2820570071 TSecr=1873389890
+
+Frame 174: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0406
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 528, Ack: 63, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    175 75.072855      172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=23) [home/sensors/umidade]
+
+Frame 175: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 423, Ack: 63, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    176 75.073020      172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=23)
+
+Frame 176: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 63, Ack: 451, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    177 75.073079      172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=451 Ack=67 Win=502 Len=0 TSval=978010489 TSecr=4085311075
+
+Frame 177: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 451, Ack: 67, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    178 75.250225      172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=23) [home/sensors/temperatura]
+
+Frame 178: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 528, Ack: 63, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    179 75.250370      172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=23)
+
+Frame 179: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 63, Ack: 563, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    180 75.250425      172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=563 Ack=67 Win=502 Len=0 TSval=2820575077 TSecr=1873394896
+
+Frame 180: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 563, Ack: 67, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    181 76.073019      172.18.0.3            172.18.0.2            TCP      80     44901 → 1883 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM TSval=4162303957 TSecr=0 WS=128
+
+Frame 181: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 9a:79:a4:11:86:d7 (9a:79:a4:11:86:d7)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 44901, Dst Port: 1883, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    182 76.073032      172.18.0.2            172.18.0.3            TCP      80     1883 → 44901 [SYN, ACK] Seq=0 Ack=1 Win=65160 Len=0 MSS=1460 SACK_PERM TSval=1275859132 TSecr=4162303957 WS=128
+
+Frame 182: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0800
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 44901, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    183 76.073043      172.18.0.3            172.18.0.2            TCP      72     44901 → 1883 [ACK] Seq=1 Ack=1 Win=64256 Len=0 TSval=4162303957 TSecr=1275859132
+
+Frame 183: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 9a:79:a4:11:86:d7 (9a:79:a4:11:86:d7)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 44901, Dst Port: 1883, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    184 76.073179      172.18.0.3            172.18.0.2            MQTT     99     Connect Command
+
+Frame 184: 99 bytes on wire (792 bits), 99 bytes captured (792 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 9a:79:a4:11:86:d7 (9a:79:a4:11:86:d7)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 44901, Dst Port: 1883, Seq: 1, Ack: 1, Len: 27
+MQ Telemetry Transport Protocol, Connect Command
+
+No.     Time           Source                Destination           Protocol Length Info
+    185 76.073202      172.18.0.2            172.18.0.3            TCP      72     1883 → 44901 [ACK] Seq=1 Ack=28 Win=65152 Len=0 TSval=1275859132 TSecr=4162303957
+
+Frame 185: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0006
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 44901, Seq: 1, Ack: 28, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    186 76.073239      172.18.0.2            172.18.0.3            MQTT     76     Connect Ack
+
+Frame 186: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0406
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 44901, Seq: 1, Ack: 28, Len: 4
+MQ Telemetry Transport Protocol, Connect Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    187 76.073262      172.18.0.3            172.18.0.2            TCP      72     44901 → 1883 [ACK] Seq=28 Ack=5 Win=64256 Len=0 TSval=4162303957 TSecr=1275859132
+
+Frame 187: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 9a:79:a4:11:86:d7 (9a:79:a4:11:86:d7)
+    Unused: 0006
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 44901, Dst Port: 1883, Seq: 28, Ack: 5, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    188 76.073301      172.18.0.3            172.18.0.2            MQTT     93     Subscribe Request (id=1) [home/sensors/#]
+
+Frame 188: 93 bytes on wire (744 bits), 93 bytes captured (744 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 9a:79:a4:11:86:d7 (9a:79:a4:11:86:d7)
+    Unused: 6800
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 44901, Dst Port: 1883, Seq: 28, Ack: 5, Len: 21
+MQ Telemetry Transport Protocol, Subscribe Request
+
+No.     Time           Source                Destination           Protocol Length Info
+    189 76.073415      172.18.0.2            172.18.0.3            MQTT     77     Subscribe Ack (id=1)
+
+Frame 189: 77 bytes on wire (616 bits), 77 bytes captured (616 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 44901, Seq: 5, Ack: 49, Len: 5
+MQ Telemetry Transport Protocol, Subscribe Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    190 76.119818      172.18.0.3            172.18.0.2            TCP      72     44901 → 1883 [ACK] Seq=49 Ack=10 Win=64256 Len=0 TSval=4162304004 TSecr=1275859132
+
+Frame 190: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 9a:79:a4:11:86:d7 (9a:79:a4:11:86:d7)
+    Unused: 6800
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 44901, Dst Port: 1883, Seq: 49, Ack: 10, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    191 76.119833      172.18.0.2            172.18.0.3            MQTT     100    Publish Message (id=1) [home/sensors/umidade]
+
+Frame 191: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 6800
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 44901, Seq: 10, Ack: 49, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    192 76.119865      172.18.0.3            172.18.0.2            TCP      72     44901 → 1883 [ACK] Seq=49 Ack=38 Win=64256 Len=0 TSval=4162304004 TSecr=1275859179
+
+Frame 192: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 9a:79:a4:11:86:d7 (9a:79:a4:11:86:d7)
+    Unused: 0800
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 44901, Dst Port: 1883, Seq: 49, Ack: 38, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    193 76.120156      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=1)
+
+Frame 193: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 9a:79:a4:11:86:d7 (9a:79:a4:11:86:d7)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 44901, Dst Port: 1883, Seq: 49, Ack: 38, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    194 76.169800      172.18.0.2            172.18.0.3            TCP      72     1883 → 44901 [ACK] Seq=38 Ack=53 Win=65152 Len=0 TSval=1275859229 TSecr=4162304004
+
+Frame 194: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 44901, Seq: 38, Ack: 53, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    195 80.073980      172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=24) [home/sensors/umidade]
+
+Frame 195: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 451, Ack: 67, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    196 80.074280      172.18.0.2            172.18.0.3            MQTT     100    Publish Message (id=2) [home/sensors/umidade]
+
+Frame 196: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 44901, Seq: 38, Ack: 53, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    197 80.074531      172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=24)
+
+Frame 197: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 67, Ack: 479, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    198 80.074612      172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=479 Ack=71 Win=502 Len=0 TSval=978015490 TSecr=4085316076
+
+Frame 198: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 479, Ack: 71, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    199 80.074698      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=2)
+
+Frame 199: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 9a:79:a4:11:86:d7 (9a:79:a4:11:86:d7)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 44901, Dst Port: 1883, Seq: 53, Ack: 66, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    200 80.074711      172.18.0.2            172.18.0.3            TCP      72     1883 → 44901 [ACK] Seq=66 Ack=57 Win=65152 Len=0 TSval=1275863134 TSecr=4162307958
+
+Frame 200: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 44901, Seq: 66, Ack: 57, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    201 80.255958      172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=24) [home/sensors/temperatura]
+
+Frame 201: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 563, Ack: 67, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    202 80.256380      172.18.0.2            172.18.0.3            MQTT     107    Publish Message (id=3) [home/sensors/temperatura]
+
+Frame 202: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 44901, Seq: 66, Ack: 57, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    203 80.256576      172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=24)
+
+Frame 203: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 67, Ack: 598, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    204 80.256596      172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=598 Ack=71 Win=502 Len=0 TSval=2820580083 TSecr=1873399902
+
+Frame 204: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 598, Ack: 71, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    205 80.256841      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=3)
+
+Frame 205: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 9a:79:a4:11:86:d7 (9a:79:a4:11:86:d7)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 44901, Dst Port: 1883, Seq: 57, Ack: 101, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    206 80.256849      172.18.0.2            172.18.0.3            TCP      72     1883 → 44901 [ACK] Seq=101 Ack=61 Win=65152 Len=0 TSval=1275863316 TSecr=4162308141
+
+Frame 206: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 44901, Seq: 101, Ack: 61, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    207 85.079484      172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=25) [home/sensors/umidade]
+
+Frame 207: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 479, Ack: 71, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    208 85.079628      172.18.0.2            172.18.0.3            MQTT     100    Publish Message (id=4) [home/sensors/umidade]
+
+Frame 208: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 44901, Seq: 101, Ack: 61, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    209 85.079693      172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=25)
+
+Frame 209: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 71, Ack: 507, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    210 85.079732      172.18.0.4            172.18.0.2            MQTT     74     Ping Request
+
+Frame 210: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 507, Ack: 75, Len: 2
+MQ Telemetry Transport Protocol, Ping Request
+
+No.     Time           Source                Destination           Protocol Length Info
+    211 85.079767      172.18.0.2            172.18.0.4            MQTT     74     Ping Response
+
+Frame 211: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 75, Ack: 509, Len: 2
+MQ Telemetry Transport Protocol, Ping Response
+
+No.     Time           Source                Destination           Protocol Length Info
+    212 85.079967      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=4)
+
+Frame 212: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 9a:79:a4:11:86:d7 (9a:79:a4:11:86:d7)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 44901, Dst Port: 1883, Seq: 61, Ack: 129, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    213 85.079974      172.18.0.2            172.18.0.3            TCP      72     1883 → 44901 [ACK] Seq=129 Ack=65 Win=65152 Len=0 TSval=1275868139 TSecr=4162312964
+
+Frame 213: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 44901, Seq: 129, Ack: 65, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    214 85.129850      172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=509 Ack=77 Win=502 Len=0 TSval=978020546 TSecr=4085321082
+
+Frame 214: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 509, Ack: 77, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    215 85.261419      172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=25) [home/sensors/temperatura]
+
+Frame 215: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 598, Ack: 71, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    216 85.261622      172.18.0.2            172.18.0.3            MQTT     107    Publish Message (id=5) [home/sensors/temperatura]
+
+Frame 216: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 46c7
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 44901, Seq: 129, Ack: 65, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    217 85.261720      172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=25)
+
+Frame 217: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 3255
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 71, Ack: 633, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    218 85.261750      172.18.0.6            172.18.0.2            MQTT     74     Ping Request
+
+Frame 218: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 07da
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 633, Ack: 75, Len: 2
+MQ Telemetry Transport Protocol, Ping Request
+
+No.     Time           Source                Destination           Protocol Length Info
+    219 85.261797      172.18.0.2            172.18.0.6            MQTT     74     Ping Response
+
+Frame 219: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0038
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 75, Ack: 635, Len: 2
+MQ Telemetry Transport Protocol, Ping Response
+
+No.     Time           Source                Destination           Protocol Length Info
+    220 85.261978      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=5)
+
+Frame 220: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 9a:79:a4:11:86:d7 (9a:79:a4:11:86:d7)
+    Unused: 0034
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 44901, Dst Port: 1883, Seq: 65, Ack: 164, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    221 85.261986      172.18.0.2            172.18.0.3            TCP      72     1883 → 44901 [ACK] Seq=164 Ack=69 Win=65152 Len=0 TSval=1275868321 TSecr=4162313146
+
+Frame 221: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 44901, Seq: 164, Ack: 69, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    222 85.310031      172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=635 Ack=77 Win=502 Len=0 TSval=2820585137 TSecr=1873404908
+
+Frame 222: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 635, Ack: 77, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    223 90.084849      172.18.0.4            172.18.0.2            MQTT     100    Publish Message (id=26) [home/sensors/umidade]
+
+Frame 223: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 509, Ack: 77, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    224 90.085010      172.18.0.2            172.18.0.3            MQTT     100    Publish Message (id=6) [home/sensors/umidade]
+
+Frame 224: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0406
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 44901, Seq: 164, Ack: 69, Len: 28
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    225 90.085069      172.18.0.2            172.18.0.4            MQTT     76     Publish Ack (id=26)
+
+Frame 225: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.4
+Transmission Control Protocol, Src Port: 1883, Dst Port: 43543, Seq: 77, Ack: 537, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    226 90.085087      172.18.0.4            172.18.0.2            TCP      72     43543 → 1883 [ACK] Seq=537 Ack=81 Win=502 Len=0 TSval=978025501 TSecr=4085326087
+
+Frame 226: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: fa:55:00:00:6c:78 (fa:55:00:00:6c:78)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.4, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 43543, Dst Port: 1883, Seq: 537, Ack: 81, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    227 90.085366      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=6)
+
+Frame 227: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 9a:79:a4:11:86:d7 (9a:79:a4:11:86:d7)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 44901, Dst Port: 1883, Seq: 69, Ack: 192, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    228 90.085373      172.18.0.2            172.18.0.3            TCP      72     1883 → 44901 [ACK] Seq=192 Ack=73 Win=65152 Len=0 TSval=1275873144 TSecr=4162317969
+
+Frame 228: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 44901, Seq: 192, Ack: 73, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    229 90.266838      172.18.0.6            172.18.0.2            MQTT     107    Publish Message (id=26) [home/sensors/temperatura]
+
+Frame 229: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 635, Ack: 77, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    230 90.266993      172.18.0.2            172.18.0.3            MQTT     107    Publish Message (id=7) [home/sensors/temperatura]
+
+Frame 230: 107 bytes on wire (856 bits), 107 bytes captured (856 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 44901, Seq: 192, Ack: 73, Len: 35
+MQ Telemetry Transport Protocol, Publish Message
+
+No.     Time           Source                Destination           Protocol Length Info
+    231 90.267048      172.18.0.2            172.18.0.6            MQTT     76     Publish Ack (id=26)
+
+Frame 231: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.6
+Transmission Control Protocol, Src Port: 1883, Dst Port: 34637, Seq: 77, Ack: 670, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    232 90.267084      172.18.0.6            172.18.0.2            TCP      72     34637 → 1883 [ACK] Seq=670 Ack=81 Win=502 Len=0 TSval=2820590094 TSecr=1873409913
+
+Frame 232: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 32:fe:c8:b9:42:c4 (32:fe:c8:b9:42:c4)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.6, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 34637, Dst Port: 1883, Seq: 670, Ack: 81, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    233 90.267363      172.18.0.3            172.18.0.2            MQTT     76     Publish Ack (id=7)
+
+Frame 233: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Unicast to us (0)
+    Link-layer address length: 6
+    Source: 9a:79:a4:11:86:d7 (9a:79:a4:11:86:d7)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.3, Dst: 172.18.0.2
+Transmission Control Protocol, Src Port: 44901, Dst Port: 1883, Seq: 73, Ack: 227, Len: 4
+MQ Telemetry Transport Protocol, Publish Ack
+
+No.     Time           Source                Destination           Protocol Length Info
+    234 90.267372      172.18.0.2            172.18.0.3            TCP      72     1883 → 44901 [ACK] Seq=227 Ack=77 Win=65152 Len=0 TSval=1275873326 TSecr=4162318151
+
+Frame 234: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Linux cooked capture v2
+    Protocol: IPv4 (0x0800)
+    Interface index: 2
+    Link-layer address type: Ethernet (1)
+    Packet type: Sent by us (4)
+    Link-layer address length: 6
+    Source: 8e:7c:46:c7:07:7e (8e:7c:46:c7:07:7e)
+    Unused: 0000
+Internet Protocol Version 4, Src: 172.18.0.2, Dst: 172.18.0.3
+Transmission Control Protocol, Src Port: 1883, Dst Port: 44901, Seq: 227, Ack: 77, Len: 0

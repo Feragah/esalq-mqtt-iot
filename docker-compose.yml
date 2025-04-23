@@ -2,18 +2,23 @@ version: '3.8'
 
 services:
   mosquitto:
-    image: eclipse-mosquitto:2
+    image: eclipse-mosquitto:2.0.21-openssl
     container_name: mosquitto
     ports:
       - "1883:1883"
+      #- "8883:8883"  # TLS
       - "9001:9001"  # Porta WebSocket MQTT
     volumes:
-      - ./config/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - ./config/mosquitto.conf:/mosquitto/config/mosquitto.conf
+      # - ./certs:/mosquitto/certs
+    command: sh -c "apk add --no-cache tcpdump && /docker-entrypoint.sh mosquitto -c /mosquitto/config/mosquitto.conf"
     restart: unless-stopped
 
   pub_sensor_temperatura:
     build: ./pub_sensor_temperatura
     container_name: pub_sensor_temperatura
+    # volumes:
+    #   - ./certs:/certs  # Monta o certificado da CA para o cliente
     depends_on:
       - mosquitto
     restart: unless-stopped
@@ -21,6 +26,8 @@ services:
   pub_sensor_umidade:
     build: ./pub_sensor_umidade
     container_name: pub_sensor_umidade
+    # volumes:
+    #   - ./certs:/certs  # Monta o certificado da CA para o cliente
     depends_on:
       - mosquitto
     restart: unless-stopped
@@ -28,6 +35,8 @@ services:
   sub_dashboard:
     build: ./sub_dashboard
     container_name: sub_dashboard
+    # volumes:
+    #   - ./certs:/certs  # Monta o certificado da CA para o cliente
     depends_on:
       - mosquitto
     restart: unless-stopped
