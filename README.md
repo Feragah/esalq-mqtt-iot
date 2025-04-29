@@ -17,15 +17,16 @@ cd esalq-mqtt-iot
 
 ## Índice
 
-1. [Pré-requisitos](#pré-requisitos)
-2. [Estrutura do Projeto](#estrutura-do-projeto)
-3. [Passo a Passo - Execução Inicial](#passo-a-passo---execução-inicial)
-4. [Visualização dos Logs](#visualização-dos-logs)
-5. [Encerrando os Recursos](#encerrando-os-recursos)
-6. [Ajustando os Tópicos de Publicação](#ajustando-os-tópicos-de-publicação)
-7. [Rodando o Dashboard Gráfico](#rodando-o-dashboard-gráfico)
-8. [Desafios] (#desafios-práticos)
+1. [Pré-requisitos](#pré-requisitos)  
+2. [Estrutura do Projeto](#estrutura-do-projeto)  
+3. [Passo a Passo - Execução Inicial](#passo-a-passo---execução-inicial)  
+4. [Visualização dos Logs](#visualização-dos-logs)  
+5. [Encerrando os Recursos](#encerrando-os-recursos)  
+6. [Ajustando os Tópicos de Publicação](#ajustando-os-tópicos-de-publicação)  
+7. [Rodando o Dashboard Gráfico](#rodando-o-dashboard-gráfico)  
+8. [Desafios](#desafios-práticos)  
 9. [Conclusão](#conclusão)
+
 
 ---
 
@@ -164,7 +165,7 @@ Por padrão, tanto o sensor de temperatura quanto o de umidade estão publicando
 O dashboard gráfico deve se conectar ao broker MQTT e exibir as mensagens recebidas de forma visual.
 
 ---
-## 🧠 Desafios Práticos
+## Desafios Práticos 
 
 ### 🔐 Desafio 1: Comunicação Segura com TLS
 
