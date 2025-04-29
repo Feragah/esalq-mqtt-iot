@@ -17,14 +17,16 @@ cd esalq-mqtt-iot
 
 ## Índice
 
-1. [Pré-requisitos](#pré-requisitos)
-2. [Estrutura do Projeto](#estrutura-do-projeto)
-3. [Passo a Passo - Execução Inicial](#passo-a-passo---execução-inicial)
-4. [Visualização dos Logs](#visualização-dos-logs)
-5. [Encerrando os Recursos](#encerrando-os-recursos)
-6. [Ajustando os Tópicos de Publicação](#ajustando-os-tópicos-de-publicação)
-7. [Rodando o Dashboard Gráfico](#rodando-o-dashboard-gráfico)
-8. [Conclusão](#conclusão)
+1. [Pré-requisitos](#pré-requisitos)  
+2. [Estrutura do Projeto](#estrutura-do-projeto)  
+3. [Passo a Passo - Execução Inicial](#passo-a-passo---execução-inicial)  
+4. [Visualização dos Logs](#visualização-dos-logs)  
+5. [Encerrando os Recursos](#encerrando-os-recursos)  
+6. [Ajustando os Tópicos de Publicação](#ajustando-os-tópicos-de-publicação)  
+7. [Rodando o Dashboard Gráfico](#rodando-o-dashboard-gráfico)  
+8. [Desafios](#desafios-práticos)  
+9. [Conclusão](#conclusão)
+
 
 ---
 
@@ -32,7 +34,8 @@ cd esalq-mqtt-iot
 
 - **Docker** instalado (versão compatível com _docker-compose_ ou _docker compose_);
 - Ambiente configurado para execução dos comandos Docker no terminal/shell.
-
+- Versão do NodeJS > 18
+- Não está usando a porta 8080 para outro serviço
 ---
 
 ## Estrutura do Projeto
@@ -157,38 +160,47 @@ Por padrão, tanto o sensor de temperatura quanto o de umidade estão publicando
    docker compose up -d
    ```
 
-Além do dashboard em linha de comando, você pode executar um dashboard gráfico. Para isso, siga os passos abaixo:
-
-1. **Garantir que o Python 3, ou versão superior, e o pip estão instalados** em sua máquina local:
-
-   ```bash
-   python3 --version
-   pip --version
-   ```
-
-2. **Acessar a pasta do dashboard gráfico**:
-
-   ```bash
-   cd dashboard_gui
-   ```
-
-3. **Instalar as dependências necessárias**:
-
-   ```bash
-   pip install "paho-mqtt<2.0"
-
-   pip install PySide6
-   ```
-
-4. **Executar o dashboard gráfico**:
-   ```bash
-   python dashboard_gui.py
-   ```
+### Abra o browser e acesse: localhost:8080
 
 O dashboard gráfico deve se conectar ao broker MQTT e exibir as mensagens recebidas de forma visual.
 
 ---
+## Desafios Práticos 
 
+### 🔐 Desafio 1: Comunicação Segura com TLS
+
+Configure os serviços para utilizarem **TLS** com os certificados disponíveis na pasta `certs`. Os comandos necessários já estão comentados nos arquivos `pub_sensor_*.py` e `sub_dashboard`, e os certificados já estão gerados.
+
+**Etapas:**
+1. Descomente as linhas de código relacionadas ao TLS nos scripts.
+2. Altere as portas nos scripts de `1883` para `8883`.
+3. Atualize a configuração do `mosquitto.conf` para ativar o listener TLS.
+4. Altere o `docker-compose.yml` para expor a porta `8883`.
+5. Execute novamente:
+   ```bash
+   docker compose down
+   docker compose up -d
+   ```
+
+### 📡 Desafio 2: Análise de Comunicação via Tcpdump
+
+Capture e analise os pacotes MQTT utilizando `tcpdump` dentro do container do Mosquitto.
+
+**Captura sem TLS (plaintext):**
+```bash
+docker exec -it mosquitto tcpdump -i eth0 -n -w /tmp/mqtt-capture-plain.pcap
+# aguarde alguns segundos e depois:
+docker cp mosquitto:/tmp/mqtt-capture-plain.pcap ./mqtt-capture-plain.pcap
+```
+
+**Captura com TLS:**
+Repita o procedimento após configurar o ambiente com TLS:
+```bash
+docker exec -it mosquitto tcpdump -i eth0 -n -w /tmp/mqtt-capture-tls.pcap
+docker cp mosquitto:/tmp/mqtt-capture-tls.pcap ./mqtt-capture-tls.pcap
+```
+
+**Dica:** Abra os arquivos `.pcap` no **Wireshark** e compare as comunicações com e sem criptografia.
 ## Conclusão
 
 Este projeto demonstra de forma simples como utilizar **Docker** para orquestrar um ecossistema que implementa o protocolo **MQTT** com o broker **Mosquitto**. Você viu:
