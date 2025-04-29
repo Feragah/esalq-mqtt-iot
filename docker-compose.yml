@@ -10,7 +10,7 @@ services:
       - "9001:9001"  # Porta WebSocket MQTT
     volumes:
       - ./config/mosquitto.conf:/mosquitto/config/mosquitto.conf
-      - ./certs:/mosquitto/certs
+      #- ./certs:/mosquitto/certs
     command: sh -c "apk add --no-cache tcpdump && /docker-entrypoint.sh mosquitto -c /mosquitto/config/mosquitto.conf"
     restart: unless-stopped
 
@@ -28,38 +28,38 @@ services:
     restart: unless-stopped
 
     
-  # pub_sensor_temperatura:
-  #   build: ./pub_sensor_temperatura
-  #   container_name: pub_sensor_temperatura
-  #   # volumes:
-  #   #   - ./certs:/certs  # Monta o certificado da CA para o cliente
-  #   depends_on:
-  #     - mosquitto
-  #   restart: unless-stopped
+  pub_sensor_temperatura:
+    build: ./pub_sensor_temperatura
+    container_name: pub_sensor_temperatura
+    # volumes:
+    #   - ./certs:/certs  # Monta o certificado da CA para o cliente
+    depends_on:
+      - mosquitto
+    restart: unless-stopped
 
-  # pub_sensor_umidade:
-  #   build: ./pub_sensor_umidade
-  #   container_name: pub_sensor_umidade
-  #   # volumes:
-  #   #   - ./certs:/certs  # Monta o certificado da CA para o cliente
-  #   depends_on:
-  #     - mosquitto
-  #   restart: unless-stopped
+  pub_sensor_umidade:
+    build: ./pub_sensor_umidade
+    container_name: pub_sensor_umidade
+    # volumes:
+    #   - ./certs:/certs  # Monta o certificado da CA para o cliente
+    depends_on:
+      - mosquitto
+    restart: unless-stopped
 
-  # sub_dashboard:
-  #   build: ./sub_dashboard
-  #   container_name: sub_dashboard
-  #   # volumes:
-  #   #   - ./certs:/certs  # Monta o certificado da CA para o cliente
-  #   depends_on:
-  #     - mosquitto
-  #   restart: unless-stopped
-  # dashboard_react:
-  #   build:
-  #     context: ./dashboard_web_react
-  #     dockerfile: Dockerfile
-  #   ports:
-  #     - "8080:80"
-  #   depends_on:
-  #     - mosquitto
+  sub_dashboard:
+    build: ./sub_dashboard
+    container_name: sub_dashboard
+    # volumes:
+    #   - ./certs:/certs  # Monta o certificado da CA para o cliente
+    depends_on:
+      - mosquitto
+    restart: unless-stopped
+  dashboard_react:
+    build:
+      context: ./dashboard_web_react
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - mosquitto
   

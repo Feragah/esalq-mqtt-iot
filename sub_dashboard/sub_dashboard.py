@@ -2,7 +2,7 @@ import paho.mqtt.client as mqtt
 
 BROKER_ADDRESS = "mosquitto"
 MQTT_PORT = 1883
-TOPIC = "home/sensors/umidade"
+TOPIC = "home/sensors/#"
 #CA_CERT = "/certs/ca.crt"  # caminho onde o cliente encontrará o certificado da CA
 
 def on_message(client, userdata, message):

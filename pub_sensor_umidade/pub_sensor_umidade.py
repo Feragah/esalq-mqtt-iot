@@ -4,7 +4,8 @@ import random
 
 BROKER_ADDRESS = "mosquitto"
 MQTT_PORT = 1883
-TOPIC = "home/sensors/umidade"
+TOPIC = "home/sensors"
+#TOPIC = "home/sensors/umidade"
 #CA_CERT = "/certs/ca.crt"  # caminho onde o cliente encontrará o certificado da CA
 
 def publish_loop():

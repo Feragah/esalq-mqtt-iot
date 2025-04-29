@@ -3,7 +3,7 @@ import time
 import threading
 
 BROKER_ADDRESS = "mosquitto"
-MQTT_PORT = 8883
+MQTT_PORT = 1883
 TOPIC = "home/RTT"
 CA_CERT = "/certs/ca.crt"  # caminho onde o cliente encontrará o certificado da CA
 # Dicionário para armazenar os timestamps das mensagens enviadas
@@ -14,7 +14,7 @@ def publish_loop():
     client_id = 0
     while True:
         timestamp = time.time() * 1000  # milissegundos
-        message_id = f"ping:{client_id}:{timestamp} : AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        message_id = f"ping:{client_id}:{timestamp} : Teste Payload"
         sent_messages[str(client_id)] = timestamp
         client.publish(TOPIC, message_id, qos=1)
         print(f"Mensagem publicada: {message_id}")
@@ -50,7 +50,7 @@ client = mqtt.Client(client_id="pub_sub_RTT", clean_session=False)
 client.on_connect = on_connect
 client.on_message = on_message
 # Configura TLS
-client.tls_set(ca_certs=CA_CERT)  # Usando o certificado CA para a verificação
+#client.tls_set(ca_certs=CA_CERT)  # Usando o certificado CA para a verificação
 client.connect(BROKER_ADDRESS, MQTT_PORT, keepalive=60)
 
 # Inicia o loop de recebimento de mensagens em uma thread separada

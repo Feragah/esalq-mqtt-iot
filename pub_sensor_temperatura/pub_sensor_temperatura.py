@@ -3,8 +3,9 @@ import time
 import random
 
 BROKER_ADDRESS = "mosquitto"  # nome do serviço/container no Docker Compose
-MQTT_PORT = 1883  # porta TLS
-TOPIC = "home/sensors/temperatura"
+MQTT_PORT = 1883  
+TOPIC = "home/sensors"
+#TOPIC = "home/sensors/temperatura"
 #CA_CERT = "/certs/ca.crt"  # caminho onde o cliente encontrará o certificado da CA
 
 def publish_loop():

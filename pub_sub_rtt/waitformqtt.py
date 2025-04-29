@@ -3,7 +3,7 @@ import time
 import sys
 
 host = "mosquitto"
-port = 8883  # ou 8883 conforme o container
+port = 1883  # ou 8883 conforme o container
 
 while True:
     try:
