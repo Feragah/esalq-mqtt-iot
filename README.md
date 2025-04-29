@@ -32,7 +32,8 @@ cd esalq-mqtt-iot
 
 - **Docker** instalado (versão compatível com _docker-compose_ ou _docker compose_);
 - Ambiente configurado para execução dos comandos Docker no terminal/shell.
-
+- Versão do NodeJS > 18
+- Não está usando a porta 8080 para outro serviço
 ---
 
 ## Estrutura do Projeto
@@ -157,33 +158,7 @@ Por padrão, tanto o sensor de temperatura quanto o de umidade estão publicando
    docker compose up -d
    ```
 
-Além do dashboard em linha de comando, você pode executar um dashboard gráfico. Para isso, siga os passos abaixo:
-
-1. **Garantir que o Python 3, ou versão superior, e o pip estão instalados** em sua máquina local:
-
-   ```bash
-   python3 --version
-   pip --version
-   ```
-
-2. **Acessar a pasta do dashboard gráfico**:
-
-   ```bash
-   cd dashboard_gui
-   ```
-
-3. **Instalar as dependências necessárias**:
-
-   ```bash
-   pip install "paho-mqtt<2.0"
-
-   pip install PySide6
-   ```
-
-4. **Executar o dashboard gráfico**:
-   ```bash
-   python dashboard_gui.py
-   ```
+### Abra o browser e acesse: localhost:8080
 
 O dashboard gráfico deve se conectar ao broker MQTT e exibir as mensagens recebidas de forma visual.
 
